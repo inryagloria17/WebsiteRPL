@@ -1,0 +1,96 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+.container-navbar {
+    background-color: black;
+    width: 100%;
+    heigth: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    heigth: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-size: 25px;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 7px;
+    opacity: 0.7;
+}
+
+.a-navbar {
+    color: dodgerblue;
+    text-decoration: underline;
+    font-weight: 522;
+    font-size: 22px;
+}
+
+.container-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+
+.a-content {
+    background-color: black;
+    color: white;
+    width: 850px;
+    heigth: 850px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 80px;
+    align-items: center;
+    box-shadow: 2px 5px 6px 1px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 2px 5px 6px 1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 5px 6px 1px rgba(0,0,0,0.65);
+}
+
+.img-content {
+    width: 37%;
+    heigth: 37%;
+    display: flex;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-style: oblique;
+}
